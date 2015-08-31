@@ -6,13 +6,13 @@
 - Below is a mockup of a HTML page we will be building today.
 - Think about which tags may be used to create this layout.
 
-![Betty White Resume](starter_code/WendyBite_AboutMe.png)
+![Betty White Resume](img/WendyBite_AboutMe.png)
 
 ##HTML `img` Tag
 - Images are placed on the page by the `img` tag.
 - Let's take a look at how it works:
 
-```
+```html
 <img src="img/imageName.jpg" />
 ```
 
@@ -28,7 +28,7 @@
 - Linking a stylesheet to the HTML document is the best-practice way to use CSS styles.
 - Here is the syntax for the `link` tag:
 
-```
+```html
 <link rel="stylesheet" href="style.css" />
 ```
 
@@ -37,7 +37,7 @@
 - Selectors allow you to identify which elements you want to apply styles to.
 - Here is an example of a selector with a couple rules:
 
-```
+```css
 p {
 	color: red;
 	font-weight: bold;
@@ -51,7 +51,7 @@ p {
 - There are three common basic selectors in CSS.
 - The first is the element selector. This is not a very specific selector:
 
-```
+```css
 div {
 	color: red;
 }
@@ -67,7 +67,7 @@ p {
 
 - The second is the id selector. By convention id's should not be used more than once per page:
 
-```
+```css
 #my-div {
 	background-color: #990000;
 }
@@ -75,7 +75,7 @@ p {
 
 - The third is the class selector. Classes by convention can be used multiple times throughout the page:
 
-```
+```css
 .my-divs {
 	background-color: #EBEBEB;
 }
@@ -105,4 +105,4 @@ p {
 - For this exercise we will be using the mockup below to code it into HTML and CSS.
 - Link the about me page we created earlier to your resume page.
 
-![Wendy G. Bite Resume](starter_code/WendyBite_Resume.png)
+![Wendy G. Bite Resume](img/WendyBite_Resume.png)
