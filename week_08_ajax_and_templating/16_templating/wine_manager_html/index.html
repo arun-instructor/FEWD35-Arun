@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wine Manager App</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div class="container margin-bottom-50">
+	<div class="margin-top-20">
+		<a href="#" data-toggle="modal" data-target="#add-wine-modal" class="btn btn-primary">Add New Wine</a>
+	</div>
+	<!--One Wine-->
+	<div class="row margin-top-20 wine-container">
+		<div class="col-sm-3">
+			<img src="http://s3-us-west-2.amazonaws.com/sandboxapi/saint_cosme.jpg" class="img-responsive" />
+		</div>
+		<div class="col-sm-9">
+			<div class="margin-top-20">
+				<span class="bold">Name: </span><span>CHATEAU DE SAINT COSME</span>
+			</div>
+			<div>
+				<span class="bold">Year: </span><span>2009</span>
+			</div>
+			<div>
+				<span class="bold">Grapes: </span><span>Grenache / Syrah</span>
+			</div>
+			<div>
+				<span class="bold">Country: </span><span>France</span>
+			</div>
+			<div>
+				<span class="bold">Region: </span><span>Southern Rhone</span>
+			</div>
+			<div>
+				<span class="bold">Price: </span><span>13</span>
+			</div>
+			<div>
+				<span class="bold">Description: </span>
+			</div>
+			<div class="margin-top-10">
+				The aromas of fruit and spice give one a hint of the light drinkability of this lovely wine, which makes an excellent complement to fish dishes.
+			</div>
+		</div>
+	</div>
+	<!--/One Wine-->
+	<!--One Wine-->
+	<div class="row margin-top-20 wine-container">
+		<div class="col-sm-3">
+			<img src="http://s3-us-west-2.amazonaws.com/sandboxapi/saint_cosme.jpg" class="img-responsive" />
+		</div>
+		<div class="col-sm-9">
+			<div class="margin-top-20">
+				<span class="bold">Name: </span><span>Arun's Wine</span>
+			</div>
+			<div>
+				<span class="bold">Year: </span><span>Arun's Wine</span>
+			</div>
+			<div>
+				<span class="bold">Grapes: </span><span>Arun's Wine</span>
+			</div>
+			<div>
+				<span class="bold">Country: </span><span>Arun's Wine</span>
+			</div>
+			<div>
+				<span class="bold">Region: </span><span>Arun's Wine</span>
+			</div>
+			<div>
+				<span class="bold">Price: </span><span>Arun's Wine</span>
+			</div>
+			<div>
+				<span class="bold">Description: </span>
+			</div>
+			<div class="margin-top-10">
+				This is the wine description
+			</div>
+		</div>
+	</div>
+	<!--/One Wine-->
+</div>
+
+<!--Add Wine Modal-->
+<div id="add-wine-modal" class="modal fade">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title">Add New Wine</h4>
+			</div>
+			<div class="modal-body">
+				<div class="bold">
+					Name
+				</div>
+				<div class="margin-top-20">
+					<input type="text" class="form-control" />
+				</div>
+				<div class="bold margin-top-20">
+					Year
+				</div>
+				<div class="margin-top-20">
+					<input type="text" class="form-control" />
+				</div>
+				<div class="bold margin-top-20">
+					Grapes
+				</div>
+				<div class="margin-top-20">
+					<input type="text" class="form-control" />
+				</div>
+				<div class="bold margin-top-20">
+					Country
+				</div>
+				<div class="margin-top-20">
+					<input type="text" class="form-control" />
+				</div>
+				<div class="bold margin-top-20">
+					Region
+				</div>
+				<div class="margin-top-20">
+					<input type="text" class="form-control" />
+				</div>
+				<div class="bold margin-top-20">
+					Price
+				</div>
+				<div class="margin-top-20">
+					<input type="text" class="form-control" />
+				</div>
+				<div class="bold margin-top-20">
+					Picture
+				</div>
+				<div class="margin-top-20">
+					<input type="text" class="form-control" />
+				</div>
+				<div class="bold margin-top-20">
+					Description
+				</div>
+				<div class="margin-top-20">
+					<textarea class="form-control"></textarea>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-primary">Save Wine</button>
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<!--/Add Wine Modal-->
+
+<!--jQuery-->
+<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

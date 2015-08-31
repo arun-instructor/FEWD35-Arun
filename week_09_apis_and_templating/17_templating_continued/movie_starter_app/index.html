@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Movie Search</title>
+	<meta charset="utf8" />
+	<link rel="stylesheet" href="libraries/bootstrap/css/bootstrap.css" />
+	<link rel="stylesheet" href="css/custom.css" />
+</head>
+
+<body class="full-background">
+
+<div id="container"></div>
+
+<!--Home Page-->
+<div id="search-input-box" class="border-radius">
+	<h2 class="txt-center">Search for Films</h2>
+
+	<div class="row">
+		<div class="col-sm-12">
+			<input id="movie-title" class="form-control" type="text" placeholder="Movie Title" />
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-12 txt-center">
+			<a id="movie-search-button" class="btn btn-primary margin-top-20">Search</a>
+		</div>
+	</div>
+</div>
+<!--/Home Page-->
+
+<div id="movie-card-container"></div>
+
+<!--Movie Cards-->
+<div class="movie-card border-radius margin-top-20" style="display:none;">
+	<div class="row">
+		<div class="col-sm-4">
+			<img src="http://ia.media-imdb.com/images/M/MV5BMTYxNTM5MDkwMF5BMl5BanBnXkFtZTcwMTAzMTEzMQ@@._V1_SX300.jpg" class="img-responsive movie-poster" />
+		</div>
+		<div class="col-sm-8">
+			<h3 style="margin-top:0;">Cool Movie Title</h3>
+
+			<div class="row margin-top-20">
+				<div class="col-sm-4">
+					<strong>Year: </strong>2015
+				</div>
+				<div class="col-sm-4">
+					<strong>Rated: </strong>PG-13
+				</div>
+				<div class="col-sm-4">
+					<strong>Released: </strong>2014
+				</div>
+			</div>
+
+			<div class="row margin-top-20">
+				<div class="col-sm-4">
+					<strong>Runtime: </strong>200 Mins
+				</div>
+				<div class="col-sm-4">
+					<strong>Genre: </strong>Action
+				</div>
+				<div class="col-sm-4">
+					<strong>Director: </strong>Arun Sood
+				</div>
+			</div>
+
+			<div class="row margin-top-20">
+				<div class="col-sm-12">
+					<strong>Actors: </strong>Actor list
+				</div>
+			</div>
+
+			<div class="row margin-top-20">
+				<div class="col-sm-12">
+					<strong>Plot: </strong>This is the exciting plot.
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--/Movie Cards-->
+
+<script src="libraries/jquery/jquery.js"></script>
+<script src="libraries/bootstrap/js/bootstrap.min.js"></script>
+<script src="libraries/handlebars/handlebars.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+
+</html>

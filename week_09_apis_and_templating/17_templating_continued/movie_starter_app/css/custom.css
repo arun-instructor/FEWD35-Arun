@@ -1,0 +1,49 @@
+body.full-background {
+	background:url(../img/dvd-wallpaper.jpg) repeat-y;
+	background-size:auto;
+}
+
+.txt-center {
+	text-align:center;
+}
+
+#search-input-box {
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-left:-300px;
+	margin-top:-100px;
+	width:600px;
+	height:200px;
+	padding:20px;
+	background-color:#EBEBEB;
+}
+
+#movie-search-button-disabled {
+	display:none;
+}
+
+.movie-card {
+	width:800px;
+	padding:20px;
+	background-color:#EBEBEB;
+	margin:0 auto 0 auto;
+}
+
+.border-radius {
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+.margin-top-20 {
+	margin-top:20px;
+}
+
+.txt-right {
+	text-align:right;
+}
+
+.movie-poster {
+	max-height:350px;
+}
