@@ -12,6 +12,14 @@
 - Must attend at least 80% of the lectures.
 - Complete all homework assignments.
 
+##How to Submit Homework
+- Homework submissions will all be handled via GitHub.
+- Here are the steps you will need to follow:
+	- Create a repo called FEWD35-Homework (do this only once).
+	- For each assignment, create a folder inside of your repository on your local computer (inside the FEWD35-Homework folder) called week_2_homework (replace with proper week number).
+	- Commit your changes and sync your repository with the master branch (via GitHub Desktop).
+- Your TA will be reviewing your code for each assignment and creating a file inside of this folder called COMMENTS.md, which will provide you feedback.
+
 ##Overview of Front-End Web Development
 - Front-end web development consists of writing code in HTML, CSS, and JavaScript.
 - HTML is the structure of the page. It is the scaffold that adds various layout elements to your website.
