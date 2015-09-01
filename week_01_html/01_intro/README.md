@@ -1,12 +1,12 @@
-#Welcome to FEWD 31!
+#Welcome to FEWD 35!
 
 ##Instructor Information
 - Arun Sood
 - Email: arun.instructor@gmail.com
 
 ##Class Materials
-- Class notes can be found [here](https://github.com/arun-instructor/FEWD31-Arun).
-- We will be using Schoology to distribute class files and submit homework.
+- Class notes can be found [here](https://github.com/arun-instructor/FEWD35-Arun).
+- We will be using GitHub to distribute class files and submit homework.
 
 ##How to Pass This Class
 - Must attend at least 80% of the lectures.
@@ -56,7 +56,7 @@
 
 #####Heading Elements
 
-```
+```html
 <h1>Largest Heading</h1>
 <h2>...</h2>
 <h3>...</h3>
@@ -67,7 +67,7 @@
 
 #####Text Elements
 
-```
+```html
 <p>This is a Paragraph</p>
 
 <strong>This is some Bold Text</strong>
@@ -77,7 +77,7 @@
 
 #####Lists
 
-```
+```html
 <ul>
 	<li>First List Item</li>
 	<li>Second List Item</li>
@@ -86,7 +86,7 @@
 </ul>
 ```
 
-```
+```html
 <ol>
 	<li>First List Item</li>
 	<li>Second List Item</li>
@@ -97,7 +97,7 @@
 
 #####Links
 
-```
+```html
 <a href="mylink.html">My Link</a>
 ```
 
