@@ -12,7 +12,7 @@
 
 ##Week 3: Advanced Layout
 
-###Day 2: [More Layout](week_03_advanced_layout/05_more_layout/)
+###Day 2: [More Layout](week_03_more_layout/05_more_layout/)
 
 ##Week 4: Finish Layout and Introduction to Programming
 
