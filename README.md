@@ -10,35 +10,35 @@
 
 ###Day 2: [CSS Layout](week_02_layout/04_layout/)
 
-##Week 3: Advanced Layout
+##Week 3: More Layout
 
 ###Day 2: [More Layout](week_03_more_layout/05_more_layout/)
 
-##Week 4: Finish Layout and Introduction to Programming
+##Week 4: Advanced Layout
 
 ###Day 1: [Advanced CSS Selectors](week_04_advanced_layout/06_advanced_selectors/)
 
 ###Day 2: [Bootstrap Framework](week_04_advanced_layout/07_bootstrap/)
 
-##Week 5: JavaScript Continued
+##Week 5: Introduction to JavaScript
 
 ###Day 1: [Introduction to JavaScript](week_05_js_intro/08_js_basics/)
 
 ###Day 2: [JavaScript Continued](week_05_js_intro/09_dom_manipulation/)
 
-##Week 6: Review
+##Week 6: Introduction to jQuery
 
 ###Day 1: [Introduction to jQuery](week_06_jquery_intro/10_jquery_intro/)
 
 ###Day 2: [jQuery Review](week_06_jquery_intro/11_jquery_review)
 
-##Week 7: Advanced CSS and Forms
+##Week 7: Bootstrap and Advanced CSS
 
 ###Day 1: [Bootstrap + jQuery](week_07_advanced_css_and_jquery/12_jquery_bootstrap/)
 
 ###Day 2: [CSS Trickshots](week_07_advanced_css_and_jquery/13_css_trickshots/)
 
-##Week 8: AJAX and Templating
+##Week 8: Forms and AJAX
 
 ###Day 1: [Building Forms and Validation](week_08_forms_and_ajax/14_forms/)
 
