@@ -2,72 +2,15 @@
 
 ##JavaScript Review
 - We will take some time to review basic JS from last class.
+- We will be breaking up into groups of 2 to do lightning talks on a few key points.
+- Each talk will last 5 minutes.
 
-##Objects
-
-####Object Notation
-
-```
-var myObject = {
-	firstName: "Arun",
-	lastName: "Sood",
-	role: "Instructor"
-};
-```
-
-####Accessing Objects
-
-```
-myObject.firstName
-
-myObject.lastName
-
-myObject.role
-```
-
-####Objects can have multiple data types
-
-```
-var myObject = {
-	firstName: "Arun",
-	lastName: "Sood",
-	sayName: function() {
-		alert(this.firstName + " " + this.lastName);
-	},
-	age: 27
-};
-```
-
-####`this` keyword
-- `this` refers to the current object scope.
-- In the case of `myObject` above, the current scope is `myObject`.
-- I could have simply referred to it by `myObject`, but `this` is very DRY.
-- You will see this syntax very often in "MVC"-type JavaScript frameworks such as Backbone.js.
-
-##Object Exercises
-
-1. How would you represent the following using an object literal. Then update john's address to 1234 Park ln.
-
-```
-John, Doe, 36, 1234 Park st.
-```
-
-2. Using a combination of Objects and Array, how would you represent the following:
-
-```
-Moe, Doe, 31, 1234 Park st.
-Larry, Doe, 36, 1234 Spark st.
-Curly, Doe, 36, 1239 Park st.
-Jane, Doe, 32, 1239 Spark st.
-Emma, Doe, 34, 1235 Spark st.
-Elizabeth, Doe, 36, 1234 Park st.
-Elinor, Doe, 35, 1230 Park st.
-Mary, Doe, 31, 1231 Park st.
-Darcy, Doe, 32, 1224 Park st.
-Grey, Doe, 34, 1214 Park st.
-Lydia, Doe, 30, 1294 Park st.
-Harriet, Doe, 32, 1324 Park st.
-```
+##Topics for Review
+- Strings, integers, and arrays
+- Variables and functions
+- FOR loop
+- WHILE loop
+- Conditional statements
 
 ##Introduction to DOM Manipulation
 - One of the most powerful features of JS is its ability to alter the DOM.
@@ -146,6 +89,36 @@ for (var i = 0; i < myElements.length; i++) {
 
 ```
 document.getElementById("my-div").innerHTML = "<span>New HTML here</span>";
+```
+
+##setAttribute()
+- JavaScript gives you the ability to dynamically alter HTML element attributes on the fly.
+- This may be used to change stylistic properties such as the background color:
+
+```javascript
+document.getElementById("my-id").setAttribute("style", "background-color: red;");
+```
+
+##classList
+- If you want to alter many style properties at one time, consider wrapping your properties up as a CSS class.
+- JavaScript gives us access to an element's classes so we can manipulate them:
+
+Add:
+
+```javascript
+document.getElementById("my-div").classList.add("animation");
+```
+
+Remove:
+
+```javascript
+document.getElementById("my-div").classList.remove("animation");
+```
+
+Toggle:
+
+```javascript
+document.getElementById("my-div").classList.toggle("animation");
 ```
 
 ##Score Keeper Lab / Homework
