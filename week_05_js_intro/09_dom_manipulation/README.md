@@ -51,6 +51,43 @@ document.querySelector("#my-div");
 document.querySelectorAll("#my-div.my-class");
 ```
 
+##setAttribute()
+- JavaScript gives you the ability to dynamically alter HTML element attributes on the fly.
+- This may be used to change stylistic properties such as the background color:
+
+```javascript
+document.getElementById("my-id").setAttribute("style", "background-color: red;");
+```
+
+##classList
+- If you want to alter many style properties at one time, consider wrapping your properties up as a CSS class.
+- JavaScript gives us access to an element's classes so we can manipulate them:
+
+Add:
+
+```javascript
+document.getElementById("my-div").classList.add("animation");
+```
+
+Remove:
+
+```javascript
+document.getElementById("my-div").classList.remove("animation");
+```
+
+Toggle:
+
+```javascript
+document.getElementById("my-div").classList.toggle("animation");
+```
+
+##innerHTML
+- When you need to replace the HTML inside of an element you can use the `innerHTML` property.
+
+```
+document.getElementById("my-div").innerHTML = "<span>New HTML here</span>";
+```
+
 ##Handling Events
 - There are many events you may want to respond to with JS including clicks, mouseovers, focuses, etc.
 - Events can be listened for and responded to using `addEventListener`.
@@ -82,43 +119,6 @@ for (var i = 0; i < myElements.length; i++) {
 		alert("Click worked!");
 	});
 }
-```
-
-##innerHTML
-- When you need to replace the HTML inside of an element you can use the `innerHTML` property.
-
-```
-document.getElementById("my-div").innerHTML = "<span>New HTML here</span>";
-```
-
-##setAttribute()
-- JavaScript gives you the ability to dynamically alter HTML element attributes on the fly.
-- This may be used to change stylistic properties such as the background color:
-
-```javascript
-document.getElementById("my-id").setAttribute("style", "background-color: red;");
-```
-
-##classList
-- If you want to alter many style properties at one time, consider wrapping your properties up as a CSS class.
-- JavaScript gives us access to an element's classes so we can manipulate them:
-
-Add:
-
-```javascript
-document.getElementById("my-div").classList.add("animation");
-```
-
-Remove:
-
-```javascript
-document.getElementById("my-div").classList.remove("animation");
-```
-
-Toggle:
-
-```javascript
-document.getElementById("my-div").classList.toggle("animation");
 ```
 
 ##Score Keeper Lab / Homework
