@@ -1,8 +1,8 @@
 #jQuery Review and Bootstrap Integration
 
-##Review TicTacToe
+##Review Divided Times
 - What did you find most challenging?
-- How did you approach the game?
+- How did you approach the exercise?
 
 ##Using jQuery Plugins with Bootstrap
 - One of the most powerful aspects of jQuery is that its functionality can be extended by plugins.
