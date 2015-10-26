@@ -9,7 +9,7 @@ HANDLE.renderTemplate = function(settings) {
 
 	var template = Handlebars.compile(source);
 
-	if (typeof data === "string") {
+	if (typeof settings.data === "string") {
 		var jsonData = JSON.parse(settings.data);
 	} else {
 		var jsonData = settings.data;
